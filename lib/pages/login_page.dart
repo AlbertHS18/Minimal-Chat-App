@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 
-  class LoginPage extends Stateless Widget
-  const Login Page({super.key});
-  {
+class LoginPage extends StatelessWidget {
+  const LoginPage({super.key});
+
   @override
   Widget build(BuildContext context) {
-  return Scaffold();
+    return Scaffold(
+      backgroundColor: Theme.of(context).colorScheme.surface,
+    );
   }
 }
